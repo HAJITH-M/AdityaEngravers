@@ -7,8 +7,8 @@ const HeroSection = () => {
       <div className="w-[85%] mx-auto px-6 py-16 text-center">
         <section className="flex flex-col md:flex-row items-center justify-between" aria-labelledby="hero-title">
           <div className="md:w-1/2 md:pr-10">
-            <h1 id="hero-title" className="text-4xl font-bold text-gray-800 dark:text-white mb-6">
-              <span className="font-sans bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">
+            <h1 id="hero-title" className="text-4xl font-bold text-black dark:text-white mb-6">
+              <span className="font-sans bg-gradient-to-r from-yellow-500 to-black text-transparent bg-clip-text">
                 Welcome to Aditya Pantographers
               </span>
             </h1>
@@ -17,20 +17,20 @@ const HeroSection = () => {
             </p>
             <p className="text-lg font-sans text-gray-600 dark:text-gray-300 mb-8">
               Specializing in{' '}
-              <span className="font-bold text-blue-600 dark:text-blue-400">
+              <span className="font-bold text-yellow-600 dark:text-yellow-400">
                 Plastic and Rubber Moulds Engraving, Manufacturing of Stamping Wheels, Casting Dies, Brass and Metal Punches
               </span>{' '}
               since 1990.
             </p>
             <div className="flex items-center justify-center md:justify-start mb-8">
               <FaStar className="text-yellow-400 mr-1" aria-hidden="true" />
-              <span className="text-xl font-semibold text-gray-800 dark:text-white">4.9 / 5</span>
+              <span className="text-xl font-semibold text-black dark:text-white">4.9 / 5</span>
               <span className="ml-2 gap-1 text-gray-600 dark:text-gray-300 flex items-center">
                 from 19 <FaGoogle className="ml-1" aria-hidden="true" /> Reviews
               </span>
             </div>
             <button
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
+              className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
               aria-label="Learn more about Aditya Pantographers"
             >
               Learn More
