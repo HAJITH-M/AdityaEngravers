@@ -4,11 +4,11 @@ import { FaStar, FaGoogle } from 'react-icons/fa';
 const HeroSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="w-[85%] mx-auto px-6 py-16 text-center">
+      <div className="w-[85%] mx-auto px-6 py-16 text-center ">
         <section className="flex flex-col md:flex-row items-center justify-between" aria-labelledby="hero-title">
-          <div className="md:w-1/2 md:pr-10">
+          <div className="md:w-1/2 md:pr-10 ">
             <h1 id="hero-title" className="text-4xl font-bold text-black dark:text-white mb-6">
-              <span className="font-sans bg-gradient-to-r from-yellow-500 to-black text-transparent bg-clip-text">
+              <span className="font-sans  bg-gradient-to-r from-yellow-500 to-black text-transparent bg-clip-text">
                 Welcome to Aditya Pantographers
               </span>
             </h1>
@@ -36,11 +36,11 @@ const HeroSection = () => {
               Learn More
             </button>
           </div>
-          <div className="md:w-1/2 mt-10 md:mt-0">
+          <div className=" mt-10 md:mt-0 md:mr-20">
             <img
-              src="/path-to-your-image.jpg"
+              src="https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/welcome%20image.jpeg"
               alt="Detailed view of engraving work by Aditya Pantographers"
-              className="rounded-lg shadow-xl"
+              className="rounded-lg shadow-xl w-96 h-96 object-cover"
               loading="lazy"
             />
           </div>

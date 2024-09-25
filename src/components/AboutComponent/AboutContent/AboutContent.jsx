@@ -6,11 +6,11 @@ const AboutContent = () => {
   return (
     <div className="container mx-auto w-[95%] py-8 ">
       <div className="flex flex-col lg:flex-row items-start">
-        <div className="lg:w-1/3 mb-8 lg:mb-0">
+        <div className="lg:w-1/3 mb-8 lg:mb-0 flex mt-20 justify-center items-center">
           <img
-            src="/path-to-your-image.jpg"
+            src="https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/About%20content/who%20we%20are.jpg"
             alt="Brighten Industrial Image"
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg w-96 h-96 "
           />
         </div>
         <div className="lg:w-2/3 lg:pl-8">

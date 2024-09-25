@@ -4,18 +4,18 @@
   const LeadershipTeam = () => {
     const leaders = [
       {
-        name: 'John Doe',
-        role: 'CEO',
-        image: '/path/to/john-doe-image.jpg',
-        linkedin: 'https://www.linkedin.com/in/johndoe',
-        twitter: 'https://twitter.com/johndoe',
+        name: 'Ponraj C',
+        role: 'Founder of Aditya Pantographers',
+        image: 'https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/Leadership/Ponraj.jpg',
+        // linkedin: 'https://www.linkedin.com/in/ponrajc',
+        // twitter: 'https://twitter.com/ponrajc',
       },
       {
-        name: 'Jane Smith',
-        role: 'CTO',
-        image: '/path/to/jane-smith-image.jpg',
-        linkedin: 'https://www.linkedin.com/in/janesmith',
-        twitter: 'https://twitter.com/janesmith',
+        name: 'Kasi Rajan',
+        role: 'Co-Founder of Aditya Pantographers',
+        image: 'https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/Leadership/Kasirajan.jpg',
+        // linkedin: 'https://www.linkedin.com/in/kasirajan',
+        // twitter: 'https://twitter.com/kasirajan',
       },
     ];
 
@@ -42,14 +42,14 @@
                     />
                     <h4 className="text-xl font-semibold">{leader.name}</h4>
                     <p className="text-gray-600 mb-4">{leader.role}</p>
-                    <div className="flex gap-4">
+                    {/* <div className="flex gap-4">
                       <a href={leader.linkedin} className="text-blue-500 hover:text-blue-700 transition-colors duration-300">
                         <FaLinkedin size={24} />
                       </a>
                       <a href={leader.twitter} className="text-blue-400 hover:text-blue-600 transition-colors duration-300">
                         <FaTwitter size={24} />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </li>
               ))}

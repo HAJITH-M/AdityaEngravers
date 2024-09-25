@@ -2,7 +2,7 @@
   import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
   import { FaHome, FaInfoCircle, FaServicestack, FaImages, FaUsers, FaEnvelope, FaChevronDown } from 'react-icons/fa';
 
-  export default function Navbar() {
+  export default function Navbar2() {
       const [isOpen, setIsOpen] = useState(false);
       const [activeItem, setActiveItem] = useState(null);
       const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -20,18 +20,18 @@
       };
 
       const navigation = [
-          { title: "Home", path: "#", icon: <FaHome /> },
-          { title: "About", path: "#", icon: <FaInfoCircle /> },
+          { title: "Home", path: "/home", icon: <FaHome /> },
+          { title: "About", path: "/about", icon: <FaInfoCircle /> },
           { 
               title: "Services", 
               path: "#", 
               icon: <FaServicestack />,
               submenu: [
-                  { title: "Clients", path: "#", icon: <FaUsers /> }
+                  { title: "Clients", path: "/client", icon: <FaUsers /> }
               ]
           },
-          { title: "Gallery", path: "#", icon: <FaImages /> },
-          { title: "Contact", path: "#", icon: <FaEnvelope /> },
+          { title: "Gallery", path: "/gallery", icon: <FaImages /> },
+          { title: "Contact", path: "/contact", icon: <FaEnvelope /> },
       ];
 
       return (

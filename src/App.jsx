@@ -1,37 +1,33 @@
 import React from 'react'
-// import NavBar from './components/NavBar/NavBar'
-import Carousal from './components/Carousal/Carousal'
-import HeroSection from './components/HeroSection/HeroSection'
-import AdityaSupportHub from './components/AdityaSupportHub/AdityaSupportHub'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Services from './Pages/Services'
+import Gallery from './Pages/Gallery'
 import Navbar2 from './components/NavBar/NavBar2'
-import Awards from './components/Awards/Awards'
-import Contact from './components/Contact/Contact'
-import OurMission from './components/AboutComponent/OurMission/OurMission'
-import AboutContent from './components/AboutComponent/AboutContent/AboutContent'
-import LeadershipTeam from './components/AboutComponent/LeaderShipTeam/LeaderShipTeam'
-import OurService from './components/Service/OurService'
+import Contact from './Pages/Contact'
+import Clients from './components/Clients/Clients'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-<>
-{/* <NavBar/> */}
+    <Router>
+      <Navbar2/>
+      <Routes>
+      <Route path="/" element={<Home />} />
 
-{/* home */}
-<Navbar2/>
-<Carousal/>
-<HeroSection/>
-<AdityaSupportHub/>
-<Awards/>
-<Contact/>
-
-{/* about */}
-<OurMission/>
-<AboutContent/>
-<LeadershipTeam/>
-
-{/* Our Services */}
-<OurService/>
-</>  )
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/client" element={<Clients />} />
+      
+        
+      </Routes>
+      <Contact/>
+      <Footer/>
+    </Router>
+  )
 }
 
 export default App
