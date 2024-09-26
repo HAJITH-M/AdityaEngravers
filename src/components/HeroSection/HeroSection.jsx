@@ -38,7 +38,7 @@ const HeroSection = () => {
           </div>
           <div className=" mt-10 md:mt-0 md:mr-20">
             <img
-              src="https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/welcome%20image.jpeg"
+              src="https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.05_c8a8956e.jpg"
               alt="Detailed view of engraving work by Aditya Pantographers"
               className="rounded-lg shadow-xl w-96 h-96 object-cover"
               loading="lazy"
