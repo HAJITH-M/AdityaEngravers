@@ -20,24 +20,24 @@ const customTheme = {
 const CarouselComponent = () => {
   const images = [
     {
-      src: "https://flowbite.com/docs/images/carousel/carousel-1.svg",
-      alt: "Carousel image 1",
-    },
-    {
-      src: "https://flowbite.com/docs/images/carousel/carousel-2.svg",
-      alt: "Carousel image 2",
-    },
-    {
-      src: "https://flowbite.com/docs/images/carousel/carousel-3.svg",
-      alt: "Carousel image 3",
-    },
-    {
-      src: "https://flowbite.com/docs/images/carousel/carousel-4.svg",
+      src: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.09_f441e127.jpg",
       alt: "Carousel image 4",
     },
     {
-      src: "https://flowbite.com/docs/images/carousel/carousel-5.svg",
-      alt: "Carousel image 5",
+      src: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.04_4ba49182.jpg",
+      alt: "Carousel image 2",
+    },
+    {
+      src: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_353ac413.jpg",
+      alt: "Carousel image 3",
+    },
+    {
+      src: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.09_f441e127.jpg",
+      alt: "Carousel image 4",
+    },
+    {
+      src: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_2bad4d89.jpg",
+      alt: "Carousel image 1",
     },
   ];
 
@@ -45,7 +45,7 @@ const CarouselComponent = () => {
     <section className="mt-10 md:mt-16 w-4/5 mx-auto h-80 md:w-5/6 md:h-[50vh] lg:h-[60vh]" aria-label="Image Carousel">
       <Carousel theme={customTheme}>
         {images.map((image, idx) => (
-          <img key={idx} src={image.src} alt={image.alt} loading="lazy" />
+          <img key={idx} src={image.src} alt={image.alt} loading="lazy" className='object-contain ' />
         ))}
       </Carousel>
     </section>
