@@ -56,8 +56,85 @@
         id: 11,
         title: "Metal Punches",
         url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/Gallery/15-1.jpg?updatedAt=1727276029524"
+      },
+      // New images
+      {
+        id: 12,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.10_f2936f20.jpg"
+      },
+      {
+        id: 13,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.10_83df53c3.jpg"
+      },
+      {
+        id: 14,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.09_f441e127.jpg"
+      },
+      {
+        id: 15,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.09_e1aae36d.jpg"
+      },
+      {
+        id: 16,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.08_489141c9.jpg"
+      },
+      {
+        id: 17,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.08_5eefbde5.jpg"
+      },
+      {
+        id: 18,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.08_9e05f250.jpg"
+      },
+      {
+        id: 19,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.09_07f49995.jpg"
+      },
+      {
+        id: 20,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_cfaba71f.jpg"
+      },
+      {
+        id: 21,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_5ae1ca7a.jpg"
+      },
+      {
+        id: 22,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_353ac413.jpg"
+      },
+      {
+        id: 23,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.07_2bad4d89.jpg"
+      },
+      {
+        id: 24,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.05_fbac944b.jpg"
+      },
+      {
+        id: 25,
+        title: "Stamping Wheels",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.06_323d6882.jpg"
+      },
+      {
+        id: 26,
+        title: "Metal Punches",
+        url: "https://ik.imagekit.io/k5gvskw6y/Aditya%20Engravers/gal%20new/WhatsApp%20Image%202024-09-26%20at%2013.49.06_81e1f3ce.jpg"
       }
-    ]
+    ];
+    
 
     const Gallery = () => {
       const [selectedImage, setSelectedImage] = useState(null)
